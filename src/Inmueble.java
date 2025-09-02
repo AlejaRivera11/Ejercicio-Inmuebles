@@ -5,6 +5,9 @@ public class Inmueble {
    protected String direccion;
    protected double precioVenta;
 
+   public Inmueble() {
+    }
+    
    public Inmueble (int identificadorInmueble,int area, String direccion){
     this.identificadorInmueble = identificadorInmueble;
     this.area = area;
