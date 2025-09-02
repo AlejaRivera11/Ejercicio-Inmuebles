@@ -24,5 +24,8 @@ public class Objetos {
         Local local1 = new Local(309, 21, "Bogota", tipo.CALLE);
         local1.calcularPrecioVenta(200000);
         local1.imprimir();
+
+        local1.tipoLocal = tipo.INTERNO;
+        local1.imprimir();
     }
 }

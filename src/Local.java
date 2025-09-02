@@ -8,9 +8,12 @@ public class Local extends Inmueble {
     this.tipoLocal=tipoLocal;
     }
 
+
     public void imprimir () {
      super.imprimir();
      System.out.println("Tipo de Local " + tipoLocal);
     }
+
+
     
 }
