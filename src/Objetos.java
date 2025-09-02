@@ -20,5 +20,9 @@ public class Objetos {
         CasaConjuntoCerrado casa2 = new CasaConjuntoCerrado(109, 4, "Bogota", 2, 4, 2, 2500000, 20000, false, false);
         casa2.calcularPrecioVenta(2500000);
         casa2.imprimir();
+
+        Local local1 = new Local(309, 21, "Bogota", tipo.CALLE);
+        local1.calcularPrecioVenta(200000);
+        local1.imprimir();
     }
 }
